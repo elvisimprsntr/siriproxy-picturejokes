@@ -51,7 +51,7 @@ Installation
 
 `vim ~/.siriproxy/config.yml`
 
-- Edit the plugin as you wish  
+- Edit the plugin as you wish.  **Note: Repeat all the following steps if you make additional changes.**  
 
 `vim siriproxy-picturejokes\lib\siriproxy-picturejokes.rb`
 
