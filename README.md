@@ -87,6 +87,8 @@ To Do List
 - Make into a function to make it easier to add more jokes
 - Add an example redirecting Siri to a YouTube video.  The idea is to [RickRoll] (http://en.wikipedia.org/wiki/Rickrolling) someone based on particular keywords.
 
+Let me know if you want to collaborate.
+
 Licensing
 ---------
 
