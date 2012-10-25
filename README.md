@@ -7,7 +7,7 @@ Siriproxy-picturejokes is a [SiriProxy] (https://github.com/plamoni/SiriProxy) p
 
 First, you must have SiriProxy installed and working.  
 
-Second, you need to have access to or set up a web server on your SiriProxy server to host the custom pictures you want to push to Siri.  Simply type `apt-get install apache2`.   The default configuration for APACHE will work.   Your pictures need to reside in the `/var/www/` folder.  
+Second, you need to have access to or set up a web server on your SiriProxy server to host the custom pictures you want to push to Siri.  Simply type `apt-get install apache2 -y`.   The default configuration for APACHE will work.   Your pictures need to reside in the `/var/www/` folder.  
 
 Third, if you VPN into your home network and configure your iOS device to route all traffic through the VPN connection you can get lots of laughs at your local pub.  See the Wiki page for links to how I set up a VPN using my home router. 
 
