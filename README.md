@@ -13,7 +13,7 @@ Third, if you VPN into your home network and configure your iOS device to route 
 
 Here is a short demonstration video: Coming soon...   
 
-I have received offers to make a donation to my project to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
+I have received offers to make a donation to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LYLYUHXA8XZGA)
 
