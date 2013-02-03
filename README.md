@@ -78,7 +78,7 @@ Installation
 
 - Run  
 
-`rvmsudo siriproxy server`
+`siriproxy server`
 
 Usage
 -----
