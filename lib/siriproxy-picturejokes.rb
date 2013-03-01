@@ -23,7 +23,7 @@ end
 		puts @@jokes[title]["resp"]
 		say @@jokes[title]["resp"]
 		push_image(title, @@jokes[title]["image"])
-		unless @@jokes[title]["question"].nil?
+		if @@jokes[title].has_key?("question")
 			response = ask @@jokes[title]["question"]
 			if (response =~ /yes|yep|yeah|ok/i)
 				say @@jokes[title]["yesresp"]
