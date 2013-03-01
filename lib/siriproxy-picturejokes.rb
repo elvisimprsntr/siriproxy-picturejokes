@@ -8,13 +8,15 @@ def initialize(config)
 	@webip = "http://" + UDPSocket.open {|s| s.connect("255.255.255.0", 1); s.addr.last}
 end
 
-######## Commands
+######## Jokes
 
   begin
   	@@jokes = YAML.load File.read("#{Dir.home}/SiriProxy/plugins/siriproxy-picturejokes/lib/picturejokes.yml")
   rescue
   	puts "Error reading picturejokes.yml file."
   end
+  
+######## Commands/Actions  
   
   @@jokes.each_key do |title|
 	listen_for(/ #{@@jokes[title]["listen"].downcase.strip} /i) do 
