@@ -11,7 +11,7 @@ Your Lamborghini:
 
 Lamborghini Location:
   listen: find my lambo
-  reap: Searching for your Lamborghini...  Found your Lamborghini.  It is safely parked in your garage.  Would you like me to warm it up for you?
+  resp: Searching for your Lamborghini...  Found your Lamborghini.  It is safely parked in your garage.  Would you like me to warm it up for you?
   image: lambo-garage.jpg
 
 Capri Anderson:
