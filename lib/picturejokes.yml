@@ -1,0 +1,33 @@
+---
+HAL 9000:
+  listen: pod bay doors
+  resp: I'm sorry.  I'm afraid I can't do that.
+  image: hal.jpg
+
+Your Lamborghini:
+  listen: have a lambo
+  resp: Yes you have a Lamborghini.  It is not a very practical form of transportation.  It does not have much leg room or room for luggage.
+  image: lambo-toy.jpg
+
+Lamborghini Location:
+  listen: find my lambo
+  reap: Searching for your Lamborghini...  Found your Lamborghini.  It is safely parked in your garage.  Would you like me to warm it up for you?
+  image: lambo-garage.jpg
+
+Capri Anderson:
+  listen: hooker|prostitute|porn star
+  resp: I am not that kind of assistant, but Charlie Sheen recommends Capri Anderson.  She is available one hour from now.
+  image: capri-anderson.jpg
+  question: Would you like me to schedule an appointment and add it to your calendar?
+  yesresp: Adding appointment to your calendar.  I took the liberty of adding a reminder to pick up some cocaine and condoms on the way.
+  noresp: That is too bad. I sensed she was excited to see you again. She sends her love.
+
+Monica Lewinsky:
+  listen: hummer|blowjob|blow job
+  resp: I am not that kind of assistant, but former President Bill Clinton has a suggestion for you.
+  image: Monica-Lewinsky.jpeg
+  question: Would you like me to give her a call?
+  yesresp: Her number went straight to voice mail.  She must be very popular.  While you wait for her to call back, I found sixteen cigar shops fairly close to you.
+  noresp: You are probably better off.  You would have had a long wait to get an appointment.
+  
+  

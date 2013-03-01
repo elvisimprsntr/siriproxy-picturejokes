@@ -55,9 +55,9 @@ Installation
 
 `vim ~/.siriproxy/config.yml`
 
-- Edit the plugin as you wish.  **Note: Repeat all the following steps if you make additional changes.**  
+- Edit the `picturejokes.yml` file as you wish.  **Note: Repeat all the following steps if you make additional changes.**  
 
-`vim siriproxy-picturejokes\lib\siriproxy-picturejokes.rb`
+`vim siriproxy-picturejokes\lib\picturejokes.yml`
 
 - Copy the repo and the symbolic link to the appropriate install directory.  **Note: Replace #'s as appropriate.  Replace /usr/local/rvm/ with ~/.rvm/ depending on your Linux distribution**     
 
