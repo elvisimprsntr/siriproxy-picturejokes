@@ -26,11 +26,11 @@ end
 		unless @@jokes[title]["question"].nil?
 			response = ask @@jokes[title]["question"]
 			if (response =~ /yes|yep|yeah|ok/i)
-    			say @@jokes[title]["yesresp"]
-    		else
-    			say @@jokes[title]["noresp"]
-    		end
-    	end
+				say @@jokes[title]["yesresp"]
+			else
+				say @@jokes[title]["noresp"]
+			end
+		end
 	request_completed
 	end
   end
