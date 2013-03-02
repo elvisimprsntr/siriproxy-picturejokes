@@ -88,9 +88,7 @@ Limited only by your imagination.
 To Do List
 ----------
 
-Let me know if you want to collaborate.
-
-- Add an example redirecting Siri to a YouTube video.  The idea is to [RickRoll] (http://en.wikipedia.org/wiki/Rickrolling) someone based on particular keywords.
+If you want to collaborate, review the issues list for things to implement. Fork, modify, test, and submit a pull request.
 
 Licensing
 ---------
