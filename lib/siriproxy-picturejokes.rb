@@ -20,7 +20,6 @@ end
   
   @@jokes.each_key do |title|
 	listen_for(/ #{@@jokes[title]["listen"].downcase.strip} /i) do 
-		puts @@jokes[title]["resp"]
 		say @@jokes[title]["resp"]
 		push_image(title, @@jokes[title]["image"])
 		if @@jokes[title].has_key?("question")
