@@ -11,7 +11,7 @@ end
 ######## Jokes
 
   begin
-  	@@jokes = YAML.load File.read("#{Dir.home}/SiriProxy/plugins/siriproxy-picturejokes/lib/picturejokes.yml")
+  	@@jokes = YAML.load(File.read(File.expand_path(File.dirname( __FILE__ ) + "/picturejokes.yml")))
   rescue
   	puts "Error reading picturejokes.yml file."
   end
