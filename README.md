@@ -5,7 +5,7 @@ About
 -----
 Siriproxy-picturejokes is a [SiriProxy] (https://github.com/plamoni/SiriProxy) plugin that allows you to push custom pictures and text to Apple's Siri interface on any iOS device that supports Siri.   It does not require a jailbreak, nor do I endorse doing so.
 
-First, you must have SiriProxy installed and working.  [HOW-TOs for Siriprixy] (https://github.com/plamoni/SiriProxy/wiki/Installation-How-Tos) 
+First, you must have SiriProxy installed and working.  [HOW-TOs for SiriProxy] (https://github.com/plamoni/SiriProxy/wiki/Installation-How-Tos) 
 
 Second, you need to have access to or set up a web server on your SiriProxy server to host the custom pictures you want to push to Siri.  Simply type `apt-get install apache2 -y`.   The default configuration for APACHE will work.   Your pictures need to reside in the `/var/www/` folder.  
 
