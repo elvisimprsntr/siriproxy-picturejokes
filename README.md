@@ -57,7 +57,7 @@ Installation (New for SiriProxy 0.5.0+)
 
 `siriproxy bundle`
 
-- Run  
+- Run (Ref: https://github.com/plamoni/SiriProxy#set-up-instructions)  
 
 `[rvmsudo] siriproxy server [-d ###.###.###.###] [-u username]`
 
