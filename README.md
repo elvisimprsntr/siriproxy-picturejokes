@@ -33,8 +33,9 @@ Installation (New for SiriProxy 0.5.0+)
 
 - Create a plugins directory  
 
-`mkdir ~/plugins`
-`cd ~/plugins/`
+`mkdir ~/plugins`  
+
+`cd ~/plugins/` 
 
 - Get the latest repo   
 
