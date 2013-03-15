@@ -27,25 +27,18 @@ Pictures
 - Pictures used in this example are intentionally not provided. Refrain from using copyprotected photos.  
 
 
-Installation
-------------
+Installation (New for SiriProxy 0.5.0+)
+---------------------------------------
 
 
-- Navigate to the SiriProxy plugins directory  
+- Create a plugins directory  
 
-`cd ~/SiriProxy/plugins/`
+`mkdir ~/plugins`
+`cd ~/plugins/`
 
 - Get the latest repo   
 
-`wget "https://github.com/elvisimprsntr/siriproxy-picturejokes/zipball/master"`
-
-- Unzip the repo  
-
-`unzip master`
-
-- Create a symbolic link. **Note: Replace #'s as appropriate.**  
-
-`ln -sf elvisimprsntr-siriproxy-picturejokes-####### siriproxy-picturejokes`
+`git clone git://github.com/elvisimprsntr/siriproxy-picturejokes`
 
 - Add the example configuration to the master config.yml  
 
@@ -59,26 +52,13 @@ Installation
 
 `vim siriproxy-picturejokes\lib\picturejokes.yml`
 
-- Copy the repo and the symbolic link to the appropriate install directory.  **Note: Replace #'s as appropriate.  Replace /usr/local/rvm/ with ~/.rvm/ depending on your Linux distribution**     
-
-`cp -rv elvisimprsntr-siriproxy-picturejokes-####### /usr/local/rvm/gems/ruby-1.9.3-p###@SiriProxy/gems/siriproxy-0.3.#/plugins/`    
-`cp -rv siriproxy-picturejokes /usr/local/rvm/gems/ruby-1.9.3-p###@SiriProxy/gems/siriproxy-0.3.#/plugins/`    
-
-- Navigate the SiriProxy directory  
-
-`cd ~/SiriProxy`
-
 - Bundle  
 
 `siriproxy bundle`
 
-- Install  
-
-`bundle install`
-
 - Run  
 
-`siriproxy server`
+`[rvmsudo] siriproxy server [-d ###.###.###.###] [-u username]`
 
 Usage
 -----
