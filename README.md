@@ -51,7 +51,7 @@ Installation (New for SiriProxy 0.5.0+)
 
 - Edit the `picturejokes.yml` file as you wish.  **Note: Repeat all the following steps if you make additional changes.**  
 
-`vim siriproxy-picturejokes\lib\picturejokes.yml`
+`vim siriproxy-picturejokes/lib/picturejokes.yml`
 
 - Bundle  
 
